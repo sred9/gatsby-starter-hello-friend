@@ -11,6 +11,8 @@
   top:0;
   position:fixed;
   width:100%;
+  opacity:1;
+  z-index:9;
   /*sticky ends*/
   :global .dark-theme :local & {
     background: #282828;/*#252627;*/
