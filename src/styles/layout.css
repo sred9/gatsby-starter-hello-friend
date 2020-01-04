@@ -156,7 +156,7 @@ code {
 pre {
   background: #1a1a1d;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 0px;
   font-size: .9rem;
   overflow: auto;
 
