@@ -5,8 +5,13 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
-  padding: 20px;
-
+  padding: 12px;
+  /*sticky starts new*/
+  overflow:hidden;
+  top:0;
+  position:fixed;
+  width:100%;
+  /*sticky ends*/
   :global .dark-theme :local & {
     background: #282828;/*#252627;*/
   }
