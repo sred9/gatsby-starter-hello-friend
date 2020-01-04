@@ -154,6 +154,7 @@
 
       :global .dark-theme :local & {
         background: rgba(0, 0, 0, 0.15);
+        color: #fff;
       }
     }
   }
