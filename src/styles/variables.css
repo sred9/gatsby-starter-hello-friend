@@ -1,8 +1,8 @@
 :root {
   /* light theme color */
-  --light-background: #fff;
+  --light-background: #F5F6F7; /*#fff;*/
   --light-background-secondary: #eaeaea;
-  --light-color: #222;
+  --light-color: #1b1b32; /*#222;*/
   --light-color-secondary: #999;
   --light-border-color: #dcdcdc;
 
