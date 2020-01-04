@@ -15,7 +15,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";  
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.54;
@@ -230,7 +230,9 @@ ol ol {
 }
 
 button, input, textarea {
-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";}
+font-family: 'Lato', sans-serif;
+
+}
 
 .container {
   display: flex;
