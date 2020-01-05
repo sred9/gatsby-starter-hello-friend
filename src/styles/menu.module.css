@@ -134,6 +134,10 @@
   overflow: hidden;
   z-index: 99;
 
+@media (--phone) {
+    color: #1b1b32;
+  }
+
   :global .dark-theme :local & {
     background: var(--dark-background-secondary);
     color:#fff;
