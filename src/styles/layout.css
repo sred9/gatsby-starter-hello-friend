@@ -255,7 +255,7 @@ font-family: 'Lato', sans-serif;
   max-width: 800px;;
 
   @media (--phone) {
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   @media (--tablet) {
