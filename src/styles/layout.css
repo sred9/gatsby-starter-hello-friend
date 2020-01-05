@@ -250,12 +250,12 @@ font-family: 'Lato', sans-serif;
   flex: 1 0 auto;
   align-items: center;
   justify-content: center;
-  margin: 50px auto;
+  margin: 40px auto;
   width: 100%;
   max-width: 800px;;
 
   @media (--phone) {
-    margin-top: 0;
+    margin-top: 50px;
   }
 
   @media (--tablet) {
