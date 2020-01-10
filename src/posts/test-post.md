@@ -23,6 +23,29 @@ excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec in
   <li>A third item</li>
 </ol>
 ```
+```css
+/* PostCSS code */
+
+pre {
+  background: #1a1a1d;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  overflow: auto;
+
+  @media (--phone) {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  code {
+    background: none !important;
+    color: #ccc;
+    padding: 0;
+    font-size: inherit;
+  }
+}
+```
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante.
 
 | Tables        |      Are      |   Cool |
