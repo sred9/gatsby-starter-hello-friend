@@ -37,6 +37,20 @@ pre {
   }
 }
 ```
+```html
+<p>Keanu Reeves is best known for his blockbuster franchise, John Wick.</p>
+<aside>
+  <h4>Keanu Reeves</h4>
+  <p>Keanu Reeves is a Canadian actor and musician.</p>
+</aside>
+```
+'''html
+<p>Keanu Reeves is best known for his blockbuster franchise, John Wick.</p>
+<aside>
+  <h4>Keanu Reeves</h4>
+  <p>Keanu Reeves is a Canadian actor and musician.</p>
+</aside>
+'''
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante.
 
 | Tables        |      Are      |   Cool |
