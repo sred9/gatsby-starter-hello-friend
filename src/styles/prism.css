@@ -7,7 +7,7 @@
 code[class*="language-"],
 pre[class*="language-"] {
 	color: black;
-	background: none;
+	background-color: #fff;
 	text-shadow: 0 1px white;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	font-size: 1em;
@@ -26,6 +26,33 @@ pre[class*="language-"] {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
+:global .dark-theme :local & {
+	color: #f8f8f2;
+	background-color: #282828;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+
+
+
+
+
+  }
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
@@ -75,6 +102,10 @@ pre[class*="language-"] {
 
 .token.punctuation {
 	color: #999;
+
+   :global .dark-theme :local & {
+	color: #f8f8f2;
+  }
 }
 
 .namespace {
@@ -89,6 +120,9 @@ pre[class*="language-"] {
 .token.symbol,
 .token.deleted {
 	color: #905;
+:global .dark-theme :local & {
+	color: #f92672;
+  }
 }
 
 .token.selector,
@@ -98,6 +132,9 @@ pre[class*="language-"] {
 .token.builtin,
 .token.inserted {
 	color: #690;
+:global .dark-theme :local & {
+	color: #a6e22e;
+  }
 }
 
 .token.operator,
@@ -107,28 +144,51 @@ pre[class*="language-"] {
 .style .token.string {
 	color: #9a6e3a;
 	background: hsla(0, 0%, 100%, .5);
+:global .dark-theme :local & {
+	color: #f8f8f2;
+  }
 }
 
 .token.atrule,
-.token.attr-value,
+.token.attr-value {
+	color: #07a;
+:global .dark-theme :local & {
+	color: #e6db74;
+  }
+}
+
+
 .token.keyword {
 	color: #07a;
+:global .dark-theme :local & {
+	color: #66d9ef;
+  }
 }
+
 
 .token.function,
 .token.class-name {
 	color: #DD4A68;
+:global .dark-theme :local & {
+	color: #e6db74;
+  }
 }
 
 .token.regex,
 .token.important,
 .token.variable {
 	color: #e90;
+:global .dark-theme :local & {
+	color: #f9d71f;
+  }
 }
 
 .token.important,
 .token.bold {
 	font-weight: bold;
+:global .dark-theme :local & {
+
+  }	
 }
 .token.italic {
 	font-style: italic;
