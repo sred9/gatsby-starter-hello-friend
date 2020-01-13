@@ -26,7 +26,6 @@ pre[class*="language-"] {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
-
 	:global .dark-theme :local & {
 	color: white;
 	background-color: #282828;
