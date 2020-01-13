@@ -83,9 +83,6 @@ pre[class*="language-"] {
 .token.punctuation {
 	color: #999;
 
-   :global .dark-theme :local & {
-	color: #999;
-  }
 }
 
 .namespace {
