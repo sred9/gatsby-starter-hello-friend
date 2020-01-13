@@ -175,10 +175,11 @@ pre[class*="language-"] {
 	padding: 1em;
 	margin: .5em 0;
 	overflow: auto;
+	background-color: #282828;
 }
 
 .dark-theme code[class*="language-"] {
-	background-color: #282828;
+	background-color: ;
 	color: white;
 	box-shadow: none;
 }
