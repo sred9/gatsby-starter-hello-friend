@@ -101,24 +101,22 @@ pre[class*="language-"] {
 .token.symbol,
 .token.deleted {
 	color: #905;
-:global .dark-theme :local & {
-	color: #0cf;
-  }
+
 }
 
-:global .dark-theme :local & {
-.token.property,
-.token.tag,
-.token.boolean,
-.token.number,
-.token.constant,
-.token.symbol,
-.token.deleted {
+
+.dark-theme .token.property,
+.dark-theme .token.tag,
+.dark-theme .token.boolean,
+.dark-theme .token.number,
+.dark-theme .token.constant,
+.dark-theme .token.symbol,
+.dark-theme .token.deleted {
 	
 
 	color: #0cf;
   }
-}
+
 
 .token.selector,
 .token.attr-name,
