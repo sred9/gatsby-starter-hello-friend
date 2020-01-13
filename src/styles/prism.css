@@ -98,7 +98,7 @@ pre[class*="language-"] {
 .token.deleted {
 	color: #905;
 :global .dark-theme :local & {
-	color: #0cf;
+	color: #0cf!important;
   }
 }
 
@@ -110,7 +110,7 @@ pre[class*="language-"] {
 .token.inserted {
 	color: #690;
 :global .dark-theme :local & {
-	color: yellow;
+	color: yellow!important;
   }
 }
 
