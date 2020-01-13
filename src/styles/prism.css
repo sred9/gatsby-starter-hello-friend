@@ -78,6 +78,10 @@ pre[class*="language-"] {
 	:global .dark-theme :local & {
 	color: #aaa;
   }
+	:global .dark-theme :local & {
+	color: white;
+	background-color: #282828;
+  }
 }
 
 .token.punctuation {
@@ -98,7 +102,21 @@ pre[class*="language-"] {
 .token.deleted {
 	color: #905;
 :global .dark-theme :local & {
-	color: #0cf!important;
+	color: #0cf;
+  }
+}
+
+:global .dark-theme :local & {
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	
+
+	color: #0cf;
   }
 }
 
@@ -110,7 +128,7 @@ pre[class*="language-"] {
 .token.inserted {
 	color: #690;
 :global .dark-theme :local & {
-	color: yellow!important;
+	color: yellow;
   }
 }
 
