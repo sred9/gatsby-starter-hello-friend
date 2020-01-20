@@ -15,7 +15,7 @@
   z-index:9;
   /*sticky ends*/
   :global .dark-theme :local & {
-    background: #282828;/*#252627;*/
+    background: #272727;/*#252627;*/
   }
 
   a {
